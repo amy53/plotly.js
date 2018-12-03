@@ -60,6 +60,18 @@
     "showlegend": false,
     "hovermode": "y",
     "width": 600,
-    "height": 700
+    "height": 700,
+    "annotations": [{
+      "text": "LOOK",
+      "xref": "x", "x": 3,
+      "yref": "y", "y": 6,
+      "ax": 50, "ay": -50
+    }],
+    "shapes": [{
+      "type": "line",
+      "xref": "paper", "x0": 0.05, "x1": 1,
+      "yref": "y", "y0": 7, "y1": 7,
+      "line": {"color": "red"}
+    }]
   }
 }
